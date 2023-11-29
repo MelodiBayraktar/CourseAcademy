@@ -55,7 +55,7 @@ public class CourseManager :ICourseService
 
     public IDataResult<List<CourseDetailDto>> GetCourseDetails()
     {
-        //
+        
         //if (DateTime.Now.Hour == 12)
         //{
         //    return new ErrorDataResult<List<CourseDetailDto>>(Messages.MaintenanceTime);
